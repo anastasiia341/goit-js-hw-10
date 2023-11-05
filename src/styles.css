@@ -20,11 +20,6 @@ body {
     margin-top: 20px;
 }
 
-.breed-select {
-    width: 150px;
-    margin-bottom: 10px;
-    padding: 4px;
-}
 
 .box {
     display: flex;
@@ -33,10 +28,12 @@ body {
 }
 
 .cat-info {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    align-items: flex-start;
-    gap: 20px;
+   padding: 10px 10px;
+   margin-top: 15px;
+   display: flex;
+   gap: 20px;
+   background-color: bisque;
+   border: 2px solid gray;
 }
 
 .text-container {
