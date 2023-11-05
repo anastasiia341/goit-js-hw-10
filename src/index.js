@@ -54,7 +54,7 @@ function createMarkup(event) {
       selectEl.classList.remove('is-hidden');
       const { url, breeds } = data[0];
 
-      catInfoEl.innerHTML = `<img src="${url}" alt="${breeds[0].name}" width="400"/><div class="box"><h2>${breeds[0].name}</h2><p>${breeds[0].description}</p><p><strong>Temperament:</strong> ${breeds[0].temperament}</p></div>`;
+      catInfoEl.innerHTML = `<img src="${url}" alt="${breeds[0].name}" width="400"/><div class="box"><h2 class= "title">${breeds[0].name}</h2><p class= "text">${breeds[0].description}</p><p class="subtitle"><b>Temperament:</b> ${breeds[0].temperament}</p></div>`;
       catInfoEl.classList.remove('is-hidden');
     })
     .catch(onFetchError);
